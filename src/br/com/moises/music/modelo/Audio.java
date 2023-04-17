@@ -5,6 +5,11 @@ public class Audio {
     private int duracao;
     private int totalDeReproducoes;
     private int curtidas;
+
+    public int getTotalDeReproducoes() {
+        return totalDeReproducoes;
+    }
+
     private int classificacao;
     private int quantidadeDeNotas;
 
